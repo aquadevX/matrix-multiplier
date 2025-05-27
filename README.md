@@ -59,3 +59,7 @@ Write clean, real-world Python code
 Explore benchmarking and optimization
 
 Start my public portfolio on GitHub
+
+# IMPORTANT
+
+📬 # **Found a bug or issue? DM me on Discord: aqua.aayush**
