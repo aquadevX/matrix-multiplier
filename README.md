@@ -1,52 +1,59 @@
-# ⚙️ Advanced Matrix Multiplier (CPU Only)
+# 🚀 Matrix Multiplier — Advanced Python Project
 
-An advanced Python project that benchmarks matrix multiplication using:
-- ✅ Pure Python (nested loops)
-- ✅ NumPy (C-optimized)
-- ✅ Multiprocessing (parallel CPU execution)
+Welcome to **Matrix Multiplier**, an advanced CPU-based matrix multiplication engine written in pure Python and NumPy.
 
----
-
-## 🧪 Benchmark Results
-
-Sample output for matrix sizes:
-
-Matrix Size | Python Time (s) | NumPy Time (s) | Parallel Time (s)
-10 | 0.00012 | 0.00001 | 0.08040
-100 | 0.16129 | 0.00208 | 0.31324
-200 | 1.27561 | 0.00736 | 0.74819
-300 | 3.83211 | 0.02284 | 1.54211
-
+This is my **first serious programming project**, aimed at exploring matrix operations and performance benchmarking. Built with love, curiosity, and the help of ChatGPT 🤖.
 
 ---
 
-## 🏗️ Project Structure
+## 📦 Features
 
+- ✅ **Pure Python Implementation**  
+- ⚡ **NumPy Optimized Version**  
+- 🧪 **Benchmarking Framework**  
+- 📊 Compare performance of basic vs optimized  
+- ✅ Clean, modular code ready for future upgrades
+
+---
+
+## 💻 How It Works
+
+The project implements two matrix multiplication methods:
+
+1. **Pure Python**: Uses nested loops  
+2. **NumPy**: Uses `numpy.dot()` for ultra-fast execution
+
+Then, it benchmarks both using matrices of various sizes.
+
+---
+
+## 🛠️ How to Run
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/aquadevX/matrix-multiplier.git
+   cd matrix-multiplier
+📂 Project Structure
+bash
+Copy
+Edit
 matrix-multiplier/
+│
 ├── benchmarks/
-│ └── benchmark.py
+│   └── benchmarks.py       # Benchmarks for pure Python vs NumPy
+│
 ├── src/
-│ ├── numpy_version.py
-│ ├── parrallel_python.py
-│ └── pure_python.py
-└── README.md
+│   └── pure_python.py      # Pure Python matrix multiplication
+│
+└── README.md               # You’re reading it!
 
+🧠 Why I Built This
+As someone who is interested in coding and plans to join some World-Class universities, I wanted to:
 
----
+Understand computational performance
 
-## ▶️ Run It
+Write clean, real-world Python code
 
-```bash
-python benchmarks/benchmark.py
+Explore benchmarking and optimization
 
-## Requirements
-pip install numpy
-
-💡 Learnings
-Clean code structuring
-
-Benchmarking techniques
-
-Optimizing with parallel computing
-
-NumPy's raw speed 🔥
+Start my public portfolio on GitHub
