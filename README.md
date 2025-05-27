@@ -48,6 +48,8 @@ matrix-multiplier/
 └── README.md               # You’re reading it!
 
 🧠 Why I Built This
+
+
 As someone who is interested in coding and plans to join some World-Class universities, I wanted to:
 
 Understand computational performance
