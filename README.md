@@ -1,2 +1,2 @@
 # matrix-multiplier
-advanced matrix multiplier using python.
+An advanced matrix multiplication optimizer with benchmarking, NumPy, and parallel processing using Python.
